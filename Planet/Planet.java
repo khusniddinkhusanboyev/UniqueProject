@@ -9,17 +9,26 @@ class Planet {
         this.name = name;
         this.orbitalPeriod = orbitalPeriod;
     }
+
+
     @Override
     public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (o == null || getClass() != o.getClass())
-            return false;
-        Planet planet = (Planet) o ;
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Planet planet = (Planet) o;
         return orbitalPeriod == planet.orbitalPeriod && Objects.equals(name, planet.name);
     }
+
     @Override
     public int hashCode() {
         return Objects.hash(name, orbitalPeriod);
+    }
+
+    @Override
+    public String toString() {
+        return "Planet{" +
+                "name='" + name + '\'' +
+                ", orbitalPeriod=" + orbitalPeriod +
+                '}';
     }
 }
