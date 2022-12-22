@@ -19,7 +19,7 @@ public class ExProperties {
             System.out.println(properties.getProperty("FileName"));
             System.out.println(properties.getProperty("Author_Name"));
             System.out.println(properties.getProperty("Website"));
-            System.out.println(properties.getProperty("TOPIC"));
+            System.out.println(properties.getProperty("Topic"));
 
     }
 }
