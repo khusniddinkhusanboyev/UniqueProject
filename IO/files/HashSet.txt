@@ -1,0 +1,4 @@
+In; those; days,; an; ArrayList; could; store; almost; anything; you; wanted; to; put; in; it:; a
+number,; an; Account,; a; Room,; a; String; —; anything.; The; ArrayList; class; was; versatile,
+but; with; this; versatility; came; some; headaches.; If; you; could; put; anything; into; an
+ArrayList,; you; couldn’t; easily; predict; what; you; would; get; out; of; an; ArrayList.; In; particular,; you; couldn’t; easily; write; code; that; assumed; you; had; stored; certain; types; of; values; in; the; ArrayList.; Here’s; an; example:; 
